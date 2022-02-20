@@ -1,0 +1,64 @@
+hr {
+  height: 3px;
+  background-color: #1ee3e6;
+  border: none;
+}
+
+.container{
+   background: linear-gradient(to bottom right, #33ccff 0%, #000000 100%);
+  padding: 0 40px;
+  margin :  0 auto;
+  height: 100vh;
+  justify-content: center;
+  display: flex
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.counter-div{
+      background: linear-gradient(to bottom right, #ff0066 0%, #ffcc66 100%);
+  width: 600px;
+
+  margin: auto;
+  width: 40rem;
+  border: 8px solid black;
+  border-radius: 2rem ;
+  padding : 1rem;
+  text-align: center;
+}
+
+.ok{
+  font-size: 3.2rem;
+   color: black;
+}
+
+.buttons button{
+  padding: 1rem;
+   margin: .5rem 1rem;
+  font-weight: 700;
+   cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: 4px solid blue;
+}
+
+button.subtract{
+ background: linear-gradient(to top right, #ff9900 0%, #ff0000 100%);
+
+}
+
+button.add{
+  background: linear-gradient(to top right, #66ff33 0%, #008000 100%);
+}
+
+button.reset{
+  background:paleturquoise;
+}
+.count{
+  font-size: 5rem;
+}
